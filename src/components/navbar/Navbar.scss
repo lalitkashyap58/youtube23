@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(4, 48, 4);
+  color: white;
+  .container {
+    width: 1400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+
+    .logo {
+      font-size: 34px;
+      font-weight: bold;
+      .text {
+      }
+      .dot {
+        color: #197553;
+      }
+    }
+    .links {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        font-weight: 500;
+      button {
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border:1px solid white;
+        cursor: pointer;
+        background-color: transparent;
+        &:hover{
+            background-color:Green ;
+            border-color:Green ;
+        }
+      }
+    }
+  }
+}
